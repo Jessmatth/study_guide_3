@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+Welcome to the Site
+
+
+
+<form action="/save-name" method="POST">
+    What's your name?<br>
+    <input type="text" name="Please enter your name">
+    <input type="submit">
+</form>
+
+
+
+{% endblock %}
